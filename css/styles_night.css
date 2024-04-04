@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: var(--main-black) !important
+}
+
+.header {
+    color: var(--main-white) !important
+}
+
+canvas {
+    border: .1rem solid black
+}
+
+body,
+h1,
+h2,
+p,
+a,
+.text-dark {
+    color: #f9f9f9 !important
+}
+
+a.text-dark:hover {
+    color: var(--main-light-gray) !important
+}
+
+.nightshift {
+    filter: invert(100);
+}
+
+.card,
+table,
+tr
+/*,  .list-group-item*/
+
+    {
+    background-color: #1d2124;
+    border-color: var(--main-gray)
+}
+
+.list-group-item {
+    border-bottom-color: var(--main-light-gray) !important
+}
+
+a.list-group-item:hover {
+    background-color: var(--main-gray)
+}
+
+.d-light {
+    display: none;
+}
+
+.d-dark {
+    display: initial;
+}
+
+.search-form {
+    background: var(--main-gray);
+}
+
+.main-search {
+    color: var(--main-white) !important;
+}
+
+.search-result {
+    border-bottom: .25rem solid var(--main-gray);
+    color: var(--main-white) !important
+}
+
+.search-result .theme,
+.search-result.info,
+.clear-button {
+    color: var(--main-white) !important;
+}

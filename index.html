@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_night.css">
+	<script defer src="js/jquery.min.js"></script>
+	<script defer src="js/bootstrap.min.js"></script>
+	<script defer src="js/app/script.js"></script>
+	<script defer src="js/app/homepage.js"></script>
+	<title>Reproduthiva</title>
+</head>
+
+<body class="start-page">
+	<header class="header">
+		<div class="d-flex justify-content-between">
+			<div class="">Reproduthiva</div>
+			<a class="text-dark d-block" id="toggleNightMode" href="javascript:void(0)" onclick="toggleNightMode()"
+				style="transform: scale(0.25);">
+				<i class="fa fa-sun mr-3"></i>
+			</a>
+		</div>
+
+	</header>
+	<div class="search">
+		<div class="search-form">
+			<i class="fas fa-search"></i>
+			<input type="text" oninput="search()" class="main-search" name="searchbox" value="" placeholder="Pesquisar...">
+			<button class="clear-button"><i class="fas fa-times-circle clear-input"></i></button>
+		</div>
+		<a id="search-demo" class="search-result">
+			<div class="content-1 content-icon"></div>
+			<div class="info">
+				<div class="theme">Title</div>
+				<span class="name">Article</span>
+			</div>
+		</a>
+		<div class="search-results">
+		</div>
+	</div>
+	<main class="contents">
+		<section class="content pregnancy">
+			<div class="content-background">
+				<div class="number-bounce">
+
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<header class="content-wrapper-header">
+					<a data-toggle="collapse" href="#content-1-collapse" role="button" class="trigger"
+						onclick="$(this).find('i').toggleClass('rotated');">
+						<i class="fas fa-plus-circle"></i>
+						<h5 class="title">Desejo engravidar</h5>
+					</a>
+				</header>
+
+				<div id="content-1-collapse" class="collapse">
+					<ul class="expanded-items">
+						<li><a href="desires_pregnancy/content/where_make_planning.html">Onde posso realizar o planejamento
+								reprodutivo?</a></li>
+						<li><a href="desires_pregnancy/content/can_people_with_hiv_have_kids.html">Pessoas vivendo com HIV podem ter
+								filhos?</a></li>
+						<li><a href="desires_pregnancy/content/how_plan_pregancy.html">Como uma pessoa vivendo com HIV
+								pode planejar uma gravidez?</a></li>
+						<li><a href="desires_pregnancy/content/should_i_take_arvt.html">Preciso aderir à Terapia
+								Antirretroviral?</a></li>
+						<li><a href="desires_pregnancy/content/how_vertical_transmission_happens.html">Quais as formas de
+								transmissão do vírus da mãe com HIV para o bebê?</a></li>
+						<li><a href="desires_pregnancy/content/best_way_pregnancy.html">Eu e meu parceiro decidimos ter um filho(a).
+								Qual a melhor maneira?</a></li>
+						<li><a href="desires_pregnancy/content/the_couple.html">Cuidados do casal </a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="content no-pregnancy">
+			<div class="content-background">
+				<div class="number-bounce">
+					<div class="d-flex justify-content-center">
+						<div class="col-1 number-2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<header class="content-wrapper-header">
+					<a data-toggle="collapse" href="#content-2-collapse" role="button" class="trigger"
+						onclick="$(this).find('i').toggleClass('rotated');">
+						<i class="fas fa-plus-circle"></i>
+						<h5 class="title">Não desejo engravidar</h5>
+					</a>
+				</header>
+
+				<div id="content-2-collapse" class="collapse">
+					<ul class="expanded-items">
+						<li><a href="no_pregnancy/content/what_are_contraceptive_methods.html">O que são métodos contraceptivos?</a>
+						</li>
+						<li><a href="no_pregnancy/content/important_information_to_choose_contraceptive_method.html">O que preciso
+								saber pare escolher o método contraceptivo?</a></li>
+						<li><a href="no_pregnancy/content/which_methods_use_to_prevent_pregnancy.html">Quais métodos eu posso usar
+								para previnir a gravidez?</a></li>
+						<li><a href="no_pregnancy/content/which_methods_use_to_prevent_pregnancy.html">Qual método escolher para
+								evitar a gravidez?</a></li>
+						<li><a href="no_pregnancy/content/combined_prevention.html">O que é prevenção combinada?</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="content already-pregnant">
+			<div class="content-background">
+
+			</div>
+			<div class="content-wrapper">
+				<header class="content-wrapper-header">
+					<a data-toggle="collapse" href="#content-3-collapse" role="button" class="trigger"
+						onclick="$(this).find('i').toggleClass('rotated');">
+						<i class="fas fa-plus-circle"></i>
+						<h5 class="title">Já estou grávida</h5>
+					</a>
+				</header>
+				<div id="content-3-collapse" class="collapse">
+					<ul class="expanded-items">
+						<li>
+							<a href="pregnant/content/and_now.html">E agora?</a>
+						</li>
+
+						<li>
+							<a href="pregnant/content/can_have_sex.html">Posso ter relação sexual na gestação?</a>
+						</li>
+						<li>
+							<a href="pregnant/content/pre_natal.html">Pré-natal do parceiro</a>
+						</li>
+						<li>
+							<a href="pregnant/content/birth_ways.html">Quais são as vias de parto?</a>
+						</li>
+						<li>
+							<a href="pregnant/content/how_to_avoid_vertical_transmission.html">Como previnir a transmissão para o meu
+								bebê?</a>
+						</li>
+						<li>
+							<a href="pregnant/content/can_have_sex.html">Como agir se a gravidez não foi planejada?</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 
-$("#page-title").html(getTitle());
+$(".page-title").each(function () { $(this).html(getTitle()); });
+
 var nightMode = localStorage['nightToggle'] == 'true';
 setNightMode(nightMode);
 $('#fav-action').click(function () {

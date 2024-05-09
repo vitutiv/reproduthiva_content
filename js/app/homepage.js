@@ -62,3 +62,9 @@ var contents = [];
 $(document).ready(function () {
     loadSearchable();
 });
+
+if (window.location.hash) {
+    var hash = window.location.hash;
+    console.log("hash: " + hash);
+    $(hash).click();
+}

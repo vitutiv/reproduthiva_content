@@ -1,6 +1,7 @@
 ﻿<!--APP PAGE SKELETON 1.0-->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit=no">
@@ -14,6 +15,7 @@
     <title>TITLE HERE</title>
 </head>
 <!--Change body class according to theme-->
+
 <body class="geometry content-page">
     <header>
         <!--Animation goes here-->
@@ -23,7 +25,7 @@
             <div class="row">
                 <div class="col float-left">
                     <!--LEAVE IT EMPTY. The script sets it automatically as the page title. You can thank me later.-->
-                    <h1 class="title" id="page-title"></h1>
+                    <h1 class="title page-title"></h1>
                     <!--Still, this one needs to be set manually.-->
                     <h2 class="subtitle text-muted" id="page-subtitle">THEME TITLE HERE (EX: GEOMETRY)</h2>
                 </div>
@@ -35,12 +37,14 @@
                 </div>
             </div>
         </div>
-        <hr class="mx-2"/>
+        <hr class="mx-2" />
         <div class="content" id="page-content">
 
             <!--Default paragraph. no further changes needed-->
             <p>
-                PARAGRAPH Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur similique recusandae reprehenderit ab mollitia sit aliquid nisi maxime dignissimos, modi et officiis inventore temporibus facilis consequatur at cumque ut ad.
+                PARAGRAPH Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur similique recusandae
+                reprehenderit ab mollitia sit aliquid nisi maxime dignissimos, modi et officiis inventore temporibus
+                facilis consequatur at cumque ut ad.
             </p>
 
             <!--Default section title. PLEASE DON'T USE BEFORE THE FIRST PARAGRAPH.-->
@@ -51,7 +55,7 @@
             <!--IMAGES: NEVER FORGET THE CAPTION-->
             <!--Default image-->
             <figure>
-                <img src="../../img/logo_ifet.svg"/>
+                <img src="../../img/logo_ifet.svg" />
                 <figcaption>Imagem normal - Caption</figcaption>
             </figure>
 
@@ -59,7 +63,8 @@
                 <img id="id-necessary" src="url-original-image" class="interactive" data-toggle="url-alternate-image" onclick="togglePicture()" />
             -->
             <figure class="interactive">
-                <img id="id-necessary" src="../../img/logo_ifet.svg" data-toggle="../../img/logo_ifet_white.svg" onclick="togglePicture()" />
+                <img id="id-necessary" src="../../img/logo_ifet.svg" data-toggle="../../img/logo_ifet_white.svg"
+                    onclick="togglePicture()" />
                 <figcaption>Imagem interativa - Caption</figcaption>
             </figure>
 
@@ -91,7 +96,8 @@
                     </figure>
                 </div>
                 <div class="card-footer">
-                    <button id="show-1" class="btn btn-block" data-toggle="collapse" data-target="#resposta" onclick="toggleText()">Mostrar Resposta</button>
+                    <button id="show-1" class="btn btn-block" data-toggle="collapse" data-target="#resposta"
+                        onclick="toggleText()">Mostrar Resposta</button>
                     <div id="resposta" class="collapse" style="padding: 10px;">
                         <h4>Resposta</h4>
                         <p><b>Resposta?</b> Seria isso mesmo?</p>
@@ -120,4 +126,5 @@
         </div>
     </main>
 </body>
+
 </html>

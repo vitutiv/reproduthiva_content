@@ -827,19 +827,19 @@ h5.title {
 .content-page #fav-action,
 .content-page .fav-action {
   position: relative;
-  top: 35%;
+  top: 35%
 }
 
 .content-page #fav-action:hover {
-  cursor: pointer;
+  cursor: pointer
 }
 
 .content-page p {
-  text-indent: 1rem;
+  text-indent: 1rem
 }
 
 .list-group {
-  border-radius: 0;
+  border-radius: 0
 }
 
 .list-group-item {
@@ -848,15 +848,15 @@ h5.title {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom-color: var(--main-light-gray);
+  border-bottom-color: var(--main-light-gray)
 }
 
 ul.styled-list li {
-  list-style-type: circle !important;
+  list-style-type: circle !important
 }
 
 .bg-warning {
-  color: black !important;
+  color: black !important
 }
 
 #navigation-menu a {
@@ -891,7 +891,7 @@ header#navigation-menu {
   border-color: rgba(0, 0, 0, .2);
   border-width: 2px;
   background-color: rgba(0, 0, 0, .2);
-  color: rgba(255, 255, 255, .8) !important;
+  color: rgba(255, 255, 255, .8) !important
 }
 
 #navigation-menu a:hover {

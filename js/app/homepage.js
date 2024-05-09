@@ -20,8 +20,8 @@ function search() {
                 'href': content.href
             });
             $(el).find(".content-icon").css('background-color', content.color);
-            $(el).find(".theme").text(content.theme);
-            $(el).find(".name").text(content.name);
+            $(el).find(".theme").text(content.name);
+            $(el).find(".name").text(content.theme);
             $(".search-results").append(el);
         }
     })
